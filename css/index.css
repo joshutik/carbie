@@ -1,0 +1,73 @@
+*{
+    font-family: "poppins", serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.apple{
+    width: auto;
+}
+
+
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+
+
+:root{
+    --primaryYellow: #f6c726;
+    --primarySkyBlue: #3caac9;
+    --primaryPurple: #a15fac;
+    --primaryLightGreen: #77c0a0;
+}
+
+.btn-signup{
+    transition: all .2s;
+}
+
+.btn-signup:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.btn-signup:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.header-section{
+    min-height: 75vh !important;
+}
+
+.book-now-btn{
+    background-color: var(--primarySkyBlue);
+}
+
+.text-color{
+    color: var(--primarySkyBlue);
+    font-weight: 500;
+}
+
+.offer{
+    padding-top:10px;
+}
+
+.ft-img{
+    width: 50px !important;
+    min-height: 50px !important;
+}
+
+.footer li{
+    list-style-type: none;
+    padding-left: 0px !important;
+    
+}
+ul a{
+    padding-left: 0px !important;
+    text-decoration: none;
+    color:white !important;
+}
